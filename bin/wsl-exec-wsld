@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-set -exuo pipefail
-
+set -eu
 exec run-parts /etc/wsl.d
